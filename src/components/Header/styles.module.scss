@@ -1,0 +1,20 @@
+.container {
+  height: 160px;
+
+  background-color: #0a0a0a;
+
+  position: relative;
+}
+
+.content {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hamburguer {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+}
