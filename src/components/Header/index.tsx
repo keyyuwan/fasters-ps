@@ -15,6 +15,14 @@ export function Header() {
         </div>
 
         <img src={logoImg} alt="Renee Trajar logo" />
+
+        <nav className={styles.navBar}>
+          <a>Empresa</a>
+          <a>Camisaria</a>
+          <a>Alfaiataria</a>
+          <a>Depoimentos</a>
+          <a>Contato</a>
+        </nav>
       </div>
     </header>
   ) : (

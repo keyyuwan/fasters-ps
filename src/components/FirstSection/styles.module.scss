@@ -4,6 +4,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 88px;
+
+  @media (min-width: 420px) {
+    background-image: url(../../assets/bannerRenee.png);
+  }
 }
 
 .content {

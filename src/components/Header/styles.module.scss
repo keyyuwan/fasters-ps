@@ -4,10 +4,15 @@
   background-color: #0a0a0a;
 
   position: relative;
+
+  @media (min-width: 1024px) {
+    height: 111px;
+    background: linear-gradient(180deg, #000000 29.73%, rgba(0, 0, 0, 0) 100%);
+  }
 }
 
 .content {
-  height: 160px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,5 +21,35 @@
     position: absolute;
     top: 24px;
     right: 24px;
+  }
+
+  @media (min-width: 1024px) {
+    height: 100%;
+    padding: 0 40px;
+    justify-content: space-between;
+
+    .hamburguer {
+      display: none;
+    }
+  }
+}
+
+.navBar {
+  font: 300 16px Lato, sans-serif;
+  text-transform: uppercase;
+  color: #949494;
+
+  a {
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+      color: var(--blue-400);
+    }
+  }
+
+  @media (max-width: 1023px) {
+    display: none;
   }
 }
