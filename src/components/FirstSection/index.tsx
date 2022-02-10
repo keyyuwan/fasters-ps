@@ -1,11 +1,8 @@
-import { Header } from "../Header";
 import styles from "./styles.module.scss";
 
 export function FirstSection() {
   return (
     <div className={styles.container}>
-      <Header />
-
       <div className={styles.content}>
         <div className={styles.title}>
           <p>Elegante é ter um</p>

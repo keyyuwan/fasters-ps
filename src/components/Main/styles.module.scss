@@ -1,0 +1,10 @@
+.wrapper {
+  background-image: url(../../assets/bannerReneeMobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 420px) {
+    background-image: url(../../assets/bannerRenee.png);
+    padding-bottom: 50px;
+  }
+}

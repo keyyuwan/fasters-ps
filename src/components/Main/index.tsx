@@ -5,9 +5,11 @@ import { Depositions } from "../Depositions";
 import { Drawer } from "../Drawer";
 import { FirstSection } from "../FirstSection";
 import { Footer } from "../Footer";
+import { Header } from "../Header";
 import { Products } from "../Products";
 import { ReneeSection } from "../ReneeSection";
 import { WhatsAppButton } from "../WhatsAppButton";
+import styles from "./styles.module.scss";
 
 export function Main() {
   const { isDrawerOpen } = useDrawer();
@@ -16,7 +18,10 @@ export function Main() {
     <Drawer />
   ) : (
     <>
-      <FirstSection />
+      <div className={styles.wrapper}>
+        <Header />
+        <FirstSection />
+      </div>
       <ReneeSection />
       <Condition />
       <Products />
