@@ -20,6 +20,8 @@ export function Products() {
         description="Totalmente feito a mão sob medida"
         pros={alfaiatariaPros}
       />
+
+      <button>Quero um orçamento</button>
     </div>
   );
 }
