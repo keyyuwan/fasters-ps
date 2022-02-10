@@ -92,6 +92,13 @@
 
     button {
       width: 300px;
+
+      transition: 0.8s;
+
+      &:hover {
+        background: transparent;
+        border: 1px solid var(--gold);
+      }
     }
   }
 }

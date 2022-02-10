@@ -95,5 +95,11 @@
   @media (min-width: 1024px) {
     width: 330px;
     margin-bottom: 0;
+
+    transition: 0.5s;
+
+    &:hover {
+      background: var(--gray-700);
+    }
   }
 }

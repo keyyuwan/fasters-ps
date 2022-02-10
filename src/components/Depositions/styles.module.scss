@@ -89,4 +89,44 @@
       }
     }
   }
+
+  @media (max-width: 1023px) {
+    .depositionContainer {
+      .arrow {
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .depositionContainer {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        max-width: 800px;
+        margin-top: 0;
+      }
+
+      .arrow {
+        cursor: pointer;
+      }
+    }
+
+    .buttons {
+      margin-top: 32px;
+
+      .dotsContainer {
+        justify-content: center;
+        gap: 24px;
+      }
+
+      .arrow {
+        display: none;
+      }
+    }
+  }
 }

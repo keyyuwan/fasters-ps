@@ -40,12 +40,24 @@ export function Depositions() {
           <div className={styles.avatar}>
             <img src={deposition.avatar} alt={deposition.name} />
           </div>
-          <p className={styles.depositionText}>"{deposition.depositionText}"</p>
+
+          <div className={styles.depositionContainer}>
+            <div className={styles.arrow} onClick={handleLastPage}>
+              <img src={arrowLeftIcon} alt="Arrow Left" />
+            </div>
+            <p className={styles.depositionText}>
+              "{deposition.depositionText}"
+            </p>
+            <div className={styles.arrow} onClick={handleNextPage}>
+              <img src={arrowRightIcon} alt="Arrow Right" />
+            </div>
+          </div>
+
           <p className={styles.author}>{deposition.name}</p>
           <p className={styles.authorCareer}>{deposition.job}</p>
 
           <div className={styles.buttons}>
-            <div onClick={handleLastPage}>
+            <div className={styles.arrow} onClick={handleLastPage}>
               <img src={arrowLeftIcon} alt="Arrow Left" />
             </div>
             <div className={styles.dotsContainer}>
@@ -60,7 +72,7 @@ export function Depositions() {
                 />
               ))}
             </div>
-            <div onClick={handleNextPage}>
+            <div className={styles.arrow} onClick={handleNextPage}>
               <img src={arrowRightIcon} alt="Arrow Right" />
             </div>
           </div>

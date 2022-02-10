@@ -116,6 +116,12 @@
       background: var(--blue-500);
       color: var(--gray-400);
       font: 300 18px Lato;
+
+      transition: 0.5s;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
     }
   }
 }
