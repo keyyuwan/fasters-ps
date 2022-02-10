@@ -8,7 +8,7 @@
     margin: 32px 0;
   }
 
-  button {
+  .button {
     margin: 33px 0 53px;
     width: 100%;
     height: 50px;
@@ -17,5 +17,22 @@
     background: var(--blue-500);
     color: var(--gray-400);
     font: 300 18px Lato;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    .divider {
+      display: none;
+    }
+
+    .button {
+      display: none;
+    }
   }
 }

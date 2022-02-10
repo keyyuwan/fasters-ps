@@ -12,6 +12,7 @@ export function Product({ imgUrl, title, description, pros }: ProductProps) {
     <div className={styles.container}>
       <div className={styles.imgContainer}>
         <img src={imgUrl} alt={title} />
+
         <div className={styles.imgBorder} />
       </div>
 
@@ -24,6 +25,8 @@ export function Product({ imgUrl, title, description, pros }: ProductProps) {
             <li key={pro}>{pro}</li>
           ))}
         </ul>
+
+        <button className={styles.button}>Quero um orçamento</button>
       </div>
     </div>
   );

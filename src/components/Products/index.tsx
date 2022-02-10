@@ -21,7 +21,7 @@ export function Products() {
         pros={alfaiatariaPros}
       />
 
-      <button>Quero um orçamento</button>
+      <button className={styles.button}>Quero um orçamento</button>
     </div>
   );
 }
