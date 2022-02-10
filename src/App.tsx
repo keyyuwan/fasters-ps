@@ -1,6 +1,8 @@
 import { Condition } from "./components/Condition";
+import { Contact } from "./components/Contact";
 import { Depositions } from "./components/Depositions";
 import { FirstSection } from "./components/FirstSection";
+import { Footer } from "./components/Footer";
 import { Products } from "./components/Products";
 import { ReneeSection } from "./components/ReneeSection";
 import { WhatsAppButton } from "./components/WhatsAppButton";
@@ -15,6 +17,8 @@ function App() {
       <Condition />
       <Products />
       <Depositions />
+      <Contact />
+      <Footer />
       <WhatsAppButton />
     </>
   );
