@@ -1,4 +1,4 @@
-import whatsAppImg from "../../assets/whats.svg";
+import whatsAppImg from "../../assets/icons/whats.svg";
 import styles from "./styles.module.scss";
 
 export function WhatsAppButton() {

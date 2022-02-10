@@ -1,6 +1,6 @@
 import { useDrawer } from "../../contexts/DrawerContext";
 import logoImg from "../../assets/logos/logo.svg";
-import hamburguerImg from "../../assets/hamburguer.svg";
+import hamburguerImg from "../../assets/icons/hamburguer.svg";
 import styles from "./styles.module.scss";
 import { Drawer } from "../Drawer";
 

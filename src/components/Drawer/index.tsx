@@ -1,4 +1,4 @@
-import closeIcon from "../../assets/close.svg";
+import closeIcon from "../../assets/icons/close.svg";
 import { useDrawer } from "../../contexts/DrawerContext";
 import styles from "./styles.module.scss";
 
