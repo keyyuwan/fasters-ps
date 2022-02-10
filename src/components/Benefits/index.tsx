@@ -1,4 +1,4 @@
-import { Fragment, HTMLAttributes } from "react";
+import { Fragment } from "react";
 import { benefits } from "../../utils/benefits";
 import styles from "./styles.module.scss";
 

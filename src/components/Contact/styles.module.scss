@@ -30,6 +30,37 @@
     border-radius: 2px;
     color: var(--blue-500);
     background: transparent;
+
+    transition: 0.5s;
+
+    &:hover {
+      color: var(--gold);
+      border-color: var(--gold);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+
+    h1 {
+      padding-top: 49px;
+    }
+
+    .divider {
+      margin: 10px 0 0;
+    }
+
+    .formContainer {
+      width: 600px;
+    }
+
+    .attendance {
+      margin-top: 64px;
+    }
   }
 }
 
@@ -72,23 +103,39 @@ form {
     color: var(--gray-400);
     font: 300 18px Lato, sans-serif;
   }
+
+  @media (min-width: 1024px) {
+    button {
+      transition: filter 0.5s;
+
+      &:hover {
+        filter: brightness(1.5);
+      }
+    }
+  }
 }
 
-.contact {
-  margin-top: 40px;
-  font: 300 18px Lato, sans-serif;
+.contactContainer {
+  .contact {
+    margin-top: 40px;
+    font: 300 18px Lato, sans-serif;
 
-  &:last-child {
-    margin-top: 24px;
+    .title {
+      text-transform: uppercase;
+      color: var(--blue-400);
+    }
+
+    .value {
+      margin-top: 8px;
+      color: var(--gray-700);
+    }
   }
 
-  .title {
-    text-transform: uppercase;
-    color: var(--blue-400);
-  }
+  @media (min-width: 1024px) {
+    margin-top: 80px;
 
-  .value {
-    margin-top: 8px;
-    color: var(--gray-700);
+    .contact {
+      margin-top: 16px;
+    }
   }
 }
