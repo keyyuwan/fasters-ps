@@ -1,4 +1,5 @@
 import { Condition } from "./components/Condition";
+import { Depositions } from "./components/Depositions";
 import { FirstSection } from "./components/FirstSection";
 import { Products } from "./components/Products";
 import { ReneeSection } from "./components/ReneeSection";
@@ -13,6 +14,7 @@ function App() {
       <ReneeSection />
       <Condition />
       <Products />
+      <Depositions />
       <WhatsAppButton />
     </>
   );

@@ -1,3 +1,7 @@
+.container {
+  padding: 0 24px;
+}
+
 .imgContainer {
   width: 100%;
   margin-top: 61px;
@@ -11,7 +15,7 @@
     top: 50%;
     left: 50%;
 
-    transform: translate(-51%, -50%);
+    transform: translate(-50%, -50%);
   }
 }
 

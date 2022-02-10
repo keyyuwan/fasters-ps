@@ -70,6 +70,8 @@
 .nelsonImgContainer {
   height: 269px;
   background-image: url(../../assets/NelsonFundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .nelsonImgBackgroundColor {
     height: 100%;

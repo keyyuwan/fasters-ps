@@ -9,7 +9,7 @@ interface ProductProps {
 
 export function Product({ imgUrl, title, description, pros }: ProductProps) {
   return (
-    <>
+    <div className={styles.container}>
       <div className={styles.imgContainer}>
         <img src={imgUrl} alt={title} />
         <div className={styles.imgBorder} />
@@ -25,6 +25,6 @@ export function Product({ imgUrl, title, description, pros }: ProductProps) {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 }
