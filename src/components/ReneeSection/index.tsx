@@ -1,3 +1,5 @@
+import { Benefits } from "../Benefits";
+
 import reneeImg from "../../assets/people/renee.png";
 import reneeImgDesktop from "../../assets/people/reneeDesktop.png";
 import quoteIcon from "../../assets/icons/quoteIcon.svg";
@@ -82,6 +84,8 @@ export function ReneeSection() {
           Advogado | Nelson Garey Advogados Associados
         </p>
       </div>
+
+      <Benefits />
     </>
   );
 }
