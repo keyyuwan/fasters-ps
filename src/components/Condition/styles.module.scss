@@ -1,6 +1,10 @@
 .container {
   height: 780px;
   background-image: url(../../assets/deposit.png);
+
+  @media (min-width: 1024px) {
+    height: 100%;
+  }
 }
 
 .content {
@@ -12,20 +16,42 @@
     rgba(0, 36, 50, 1)
   );
 
-  h1 {
-    padding-top: 60px;
-    font: 400 53px Cormorant, sans-serif;
-    line-height: 64.18px;
-    color: var(--gold);
-    text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .conditions {
+    h1 {
+      padding-top: 60px;
+      font: 400 53px Cormorant, sans-serif;
+      line-height: 64.18px;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    > span {
+      display: inline-block;
+      margin: 26px 0 19px;
+      font: 400 28px Cormorant, sans-serif;
+      font-style: italic;
+      color: var(--gold);
+    }
   }
 
-  > span {
-    display: inline-block;
-    margin: 26px 0 19px;
-    font: 400 28px Cormorant, sans-serif;
-    font-style: italic;
-    color: var(--gold);
+  @media (max-width: 1023px) {
+    img {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    padding: 24px 160px;
+
+    .conditions {
+      h1 {
+        padding-top: 0px;
+      }
+    }
   }
 }
 
@@ -50,6 +76,10 @@
       content: "- ";
     }
   }
+
+  @media (min-width: 1024px) {
+    margin-top: 0;
+  }
 }
 
 .button {
@@ -61,4 +91,9 @@
   color: #e0e0e0e0;
   border: 0;
   border-radius: 2px;
+
+  @media (min-width: 1024px) {
+    width: 330px;
+    margin-bottom: 0;
+  }
 }
