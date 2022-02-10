@@ -1,13 +1,11 @@
-import { useDrawer } from "../../contexts/DrawerContext";
+import { useEffect, useState } from "react";
+import { NavBar } from "./NavBar";
+import { HamburguerMenu } from "./HamburguerMenu";
 import logoImg from "../../assets/logos/logo.svg";
 import logoDarkImg from "../../assets/logos/logoDark.svg";
-import hamburguerImg from "../../assets/icons/hamburguer.svg";
 import styles from "./styles.module.scss";
-import { useEffect, useState } from "react";
 
 export function Header() {
-  const { handleOpenDrawer } = useDrawer();
-
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
@@ -31,9 +29,7 @@ export function Header() {
       }
     >
       <div className={styles.content}>
-        <div className={styles.hamburguer} onClick={handleOpenDrawer}>
-          <img src={hamburguerImg} alt="Hamburguer Icon" />
-        </div>
+        <HamburguerMenu />
 
         <img
           className={isFixed ? styles.dark : ""}
@@ -41,13 +37,7 @@ export function Header() {
           alt="Renee Trajar logo"
         />
 
-        <nav className={styles.navBar}>
-          <a>Empresa</a>
-          <a>Camisaria</a>
-          <a>Alfaiataria</a>
-          <a>Depoimentos</a>
-          <a>Contato</a>
-        </nav>
+        <NavBar />
       </div>
     </header>
   );

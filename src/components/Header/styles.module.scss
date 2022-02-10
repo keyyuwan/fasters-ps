@@ -29,12 +29,6 @@
   align-items: center;
   justify-content: center;
 
-  .hamburguer {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-  }
-
   @media (min-width: 1024px) {
     padding: 0 40px;
     justify-content: space-between;
@@ -43,29 +37,5 @@
       width: 92px;
       height: 41px;
     }
-
-    .hamburguer {
-      display: none;
-    }
-  }
-}
-
-.navBar {
-  font: 300 16px Lato, sans-serif;
-  text-transform: uppercase;
-  color: #949494;
-
-  a {
-    margin-left: 2rem;
-    cursor: pointer;
-    transition: 0.5s;
-
-    &:hover {
-      color: var(--blue-400);
-    }
-  }
-
-  @media (max-width: 1023px) {
-    display: none;
   }
 }
