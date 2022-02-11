@@ -12,11 +12,11 @@ export function Drawer() {
       </div>
 
       <div className={styles.links}>
-        <a href="#">Empresa</a>
-        <a href="#">Camisaria</a>
-        <a href="#">Alfaiataria</a>
-        <a href="#">Depoimentos</a>
-        <a href="#">Contato</a>
+        <a href="/#">Empresa</a>
+        <a href="/#">Camisaria</a>
+        <a href="/#">Alfaiataria</a>
+        <a href="/#">Depoimentos</a>
+        <a href="/#">Contato</a>
       </div>
 
       <div className={styles.contact}>
