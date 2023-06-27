@@ -25,7 +25,7 @@ export function Drawer() {
       </div>
       <div className={styles.contact}>
         <p className={styles.title}>E-mail</p>
-        <p className={styles.value}>contato@rtrajar.com.br</p>
+        <p className={styles.value}>contato@rauldubois.com.br</p>
       </div>
     </div>
   );
