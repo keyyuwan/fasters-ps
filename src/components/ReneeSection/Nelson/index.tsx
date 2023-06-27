@@ -13,7 +13,7 @@ export function Nelson() {
                 serviço é impecável em todos os detalhes, desde a costura ao
                 caimento. O Raul tem uma equipe de mestre!”
               </p>
-              <p className={styles.author}>Nelson Garey</p>
+              <p className={styles.author}>Nelson Lacerda</p>
               <p className={styles.authorCareer}>
                 Advogado | Nelson Lacerda Advogados Associados
               </p>
