@@ -32,11 +32,11 @@ export function Contact() {
       <section className={styles.contactContainer}>
         <div className={styles.contact}>
           <p className={styles.title}>Telefones</p>
-          <p className={styles.value}>+55 (11) 3088-0757</p>
+          <p className={styles.value}>+55 (41) 9994-6727</p>
         </div>
         <div className={styles.contact}>
           <p className={styles.title}>E-mail</p>
-          <p className={styles.value}>contato@rtrajar.com.br</p>
+          <p className={styles.value}>contato@rauldubois.com.br</p>
         </div>
       </section>
     </div>
