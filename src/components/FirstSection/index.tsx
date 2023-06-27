@@ -5,9 +5,9 @@ export function FirstSection() {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.title}>
-          <p>Elegante é ter um</p>
+          <p>Ter o seu</p>
           <h1>ALFAIATE</h1>
-          <p>para chamar de seu.</p>
+          <p>é sinônimo de elegância.</p>
         </div>
 
         <p className={styles.description}>
