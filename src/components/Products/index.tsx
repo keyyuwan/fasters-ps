@@ -7,13 +7,14 @@ import styles from "./styles.module.scss";
 export function Products() {
   return (
     <div className={styles.container}>
+      <div id="camisaria" />
       <Product
         imgUrl={tieImg}
         title="Camisaria"
         description="Confeccionadas artesanalmente"
         pros={camisariaPros}
       />
-      <div className={styles.divider} />
+      <div id="alfaiataria" className={styles.divider} />
       <Product
         imgUrl={suitImg}
         title="Alfaiataria"
