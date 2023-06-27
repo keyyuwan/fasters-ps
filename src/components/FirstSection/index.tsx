@@ -15,7 +15,7 @@ export function FirstSection() {
           10 meses para confeccionar!
         </p>
 
-        <button>Faça já um orçamento</button>
+        <a href="https://api.whatsapp.com/send?phone=554199946727&text=Olá&2C gostaria de fazer um orçamento.">Faça já um orçamento</button>
       </div>
     </div>
   );
