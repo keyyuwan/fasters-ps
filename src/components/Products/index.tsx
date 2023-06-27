@@ -14,7 +14,8 @@ export function Products() {
         description="Confeccionadas artesanalmente"
         pros={camisariaPros}
       />
-      <div id="alfaiataria" className={styles.divider} />
+      <div className={styles.divider} />
+      <div id="alfaiataria" />
       <Product
         imgUrl={suitImg}
         title="Alfaiataria"
