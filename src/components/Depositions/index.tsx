@@ -31,7 +31,7 @@ export function Depositions() {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="depoimentos">
       <div className={styles.content}>
         <h1>Depoimentos</h1>
         <div className={styles.divider} />
