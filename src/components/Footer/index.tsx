@@ -17,7 +17,7 @@ export function Footer() {
             <img src={logoDarkImg} alt="Logo Renee Trajar" />
           </div>
           <p className={styles.copyRight}>
-            Copyright: 2023 © RTrajar <br />
+            Copyright: 2023 © Raul Dubois <br />
             Todos os direitos reservados.
           </p>
         </div>
