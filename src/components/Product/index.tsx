@@ -26,7 +26,11 @@ export function Product({ imgUrl, title, description, pros }: ProductProps) {
           ))}
         </ul>
 
-        <button className={styles.button}>Quero um orçamento</button>
+        <button className={styles.button}>
+          <a href="https://api.whatsapp.com/send?phone=554199946727&text=Olá%2C gostaria de fazer um orçamento." target="_blank">
+            Quero um orçamento
+          </a>
+        </button>
       </div>
     </div>
   );
