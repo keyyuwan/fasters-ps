@@ -16,7 +16,7 @@ export function FirstSection() {
         </p>
 
         <button>
-        <a href="https://api.whatsapp.com/send?phone=554199946727&text=Olá%2C gostaria de fazer um orçamento.">Faça já um orçamento</a>
+        <a href="https://api.whatsapp.com/send?phone=554199946727&text=Olá%2C gostaria de fazer um orçamento." target="_blank">Faça já um orçamento</a>
         </button>
       </div>
     </div>
