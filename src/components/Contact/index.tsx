@@ -16,12 +16,12 @@ export function Contact() {
         <div className={styles.divider} />
 
         {isFormSent ? (
-          <p>Mensagem enviada com sucesso.</p>
+          <p style={{ marginTop: 32 }}>Mensagem enviada com sucesso.</p>
         ) : (
         <form onSubmit={handleSubmit}>
-          <input type="text" placeholder="Nome" />
-          <input type="email" placeholder="E-mail" />
-          <textarea placeholder="Mensagem" />
+          <input type="text" placeholder="Nome" required />
+          <input type="email" placeholder="E-mail" required />
+          <textarea placeholder="Mensagem" required />
 
           <button type="submit">Enviar Mensagem</button>
         </form>
