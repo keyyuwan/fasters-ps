@@ -40,7 +40,11 @@ export function Renee() {
           <p className={styles.author}>Renee Trajar</p>
         </div>
 
-        <button className={styles.button}>Agende uma visita!</button>
+        <button className={styles.button}>
+          <a href="https://api.whatsapp.com/send?phone=554199946727&text=Olá%2C gostaria de agendar uma visita." target="_blank">
+            Agende uma visita!
+          </a>
+        </button>
       </div>
     </div>
   );
