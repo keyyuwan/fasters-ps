@@ -9,13 +9,13 @@ export function Nelson() {
           <div className={styles.tailorImg}>
             <div className={styles.quoteContainer}>
               <p className={styles.quote}>
-                “Faço roupas com o Renee Trajar há mais de duas décadas, o
+                “Faço roupas com o Raul há mais de duas décadas, o
                 serviço é impecável em todos os detalhes, desde a costura ao
-                caimento. O Renee tem uma equipe de mestre!”
+                caimento. O Raul tem uma equipe de mestre!”
               </p>
               <p className={styles.author}>Nelson Garey</p>
               <p className={styles.authorCareer}>
-                Advogado | Nelson Garey Advogados Associados
+                Advogado | Nelson Lacerda Advogados Associados
               </p>
             </div>
           </div>
@@ -32,13 +32,13 @@ export function Nelson() {
       </div>
       <div className={styles.nelsonQuoteSection}>
         <p className={styles.quote}>
-          “Faço roupas com o Renee Trajar há mais de duas décadas, o serviço é
-          impecável em todos os detalhes, desde a costura ao caimento. O Renee
+          “Faço roupas com o Raul há mais de duas décadas, o serviço é
+          impecável em todos os detalhes, desde a costura ao caimento. O Raul
           tem uma equipe de mestre!”
         </p>
-        <p className={styles.author}>Nelson Garey</p>
+        <p className={styles.author}>Nelson Lacerda</p>
         <p className={styles.authorCareer}>
-          Advogado | Nelson Garey Advogados Associados
+          Advogado | Nelson Lacerda Advogados Associados
         </p>
       </div>
     </>
