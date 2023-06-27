@@ -29,7 +29,9 @@ export function Condition() {
           </ul>
 
           <button className={styles.button}>
-            Garanta essa condição especial!
+            <a href="https://api.whatsapp.com/send?phone=554199946727&text=Olá%2C gostaria de garantir a condição especial." target="_blank">
+              Garanta essa condição especial!
+            </a>
           </button>
         </div>
 
