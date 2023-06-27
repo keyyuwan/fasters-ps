@@ -1,20 +1,32 @@
+import { useState } from "react"
 import styles from "./styles.module.scss";
 
 export function Contact() {
+  const [isFormSent, setIsFormSent] = useState(false)
+
+  function handleSubmit() {
+    setIsFormSent(true)
+  }
+  
   return (
-    <div className={styles.container}>
+    <div id="contato" className={styles.container}>
       <section className={styles.formContainer}>
         <h1>Contato</h1>
 
         <div className={styles.divider} />
 
-        <form>
-          <input type="text" placeholder="Nome" />
-          <input type="email" placeholder="E-mail" />
-          <textarea placeholder="Mensagem" />
+        {isFormSent ? (
+          <p style={{ marginTop: 32 }}>Mensagem enviada com sucesso.</p>
+        ) : (
+        <form onSubmit={handleSubmit}>
+          <input type="text" placeholder="Nome" required />
+          <input type="email" placeholder="E-mail" required />
+          <textarea placeholder="Mensagem" required />
 
-          <button>Enviar Mensagem</button>
+          <button type="submit">Enviar Mensagem</button>
         </form>
+        )}
+
       </section>
 
       <section className={styles.contactContainer}>
@@ -24,11 +36,8 @@ export function Contact() {
         </div>
         <div className={styles.contact}>
           <p className={styles.title}>E-mail</p>
-          <p className={styles.value}>renee@reneetrajar.com.br</p>
+          <p className={styles.value}>contato@rtrajar.com.br</p>
         </div>
-
-        <p className={styles.attendance}>Atendimento personalizado</p>
-        <button className={styles.attendanceButton}>Clique aqui!</button>
       </section>
     </div>
   );
