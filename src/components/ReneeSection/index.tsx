@@ -4,7 +4,7 @@ import { Benefits } from "../Benefits";
 
 export function ReneeSection() {
   return (
-    <div id="empresa">
+    <div id="empresa" style={{ paddingTop: 32 }}>
       <Renee />
 
       <Nelson />

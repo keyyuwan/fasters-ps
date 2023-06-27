@@ -10,7 +10,7 @@ export function Renee() {
 
       <div className={styles.reneeInfo}>
         <div className={styles.renee}>
-          <h1>Renee Trajar</h1>
+          <h1>Raul Dubois</h1>
 
           <div className={styles.divider} />
 
@@ -19,28 +19,29 @@ export function Renee() {
 
         <div className={styles.description}>
           <p>
-            Com mais de 35 anos de experiência em camisas, calças e ternos sob
-            medida, possuímos profissionais experientes e altamente
-            qualificados.
+            Com um histórico de mais de três décadas no ramo de confecção personalizada de camisas, calças e ternos, 
+            contamos com uma equipe de profissionais experientes e altamente capacitados.
           </p>
           <p>
-            Cada cliente tem seu molde exclusivamente desenvolvido para seu
-            biotipo através das medidas tiradas pelo próprio Sr. Renee, no
-            escritório ou residência do cliente.
+            Para cada cliente, é criado um padrão exclusivo que é cuidadosamente desenvolvido de acordo com suas medidas corporais. 
+            Essas medidas são obtidas pessoalmente pelo Sr. Raul, seja no escritório ou na residência do cliente.
           </p>
         </div>
 
         <div className={styles.quoteSection}>
           <p className={styles.quote}>
-            “Nosso objetivo é superar a expectativa do cliente
-            proporcionando-lhe satisfação ao usar nossos produtos, aliado a um
-            relacionamento franco e honesto, valorizando o ser humano.”
+            “Nossa meta é exceder as expectativas dos nossos clientes, garantindo que eles fiquem satisfeitos ao utilizar nossos produtos. Buscamos alcançar isso por meio de um relacionamento transparente e sincero, 
+            onde valorizamos o ser humano em todas as interações.”
           </p>
           <img src={quoteIcon} alt="Quote" />
-          <p className={styles.author}>Renee Trajar</p>
+          <p className={styles.author}>Raul Dubois</p>
         </div>
 
-        <button className={styles.button}>Agende uma visita!</button>
+        <button className={styles.button}>
+          <a href="https://api.whatsapp.com/send?phone=554199946727&text=Olá%2C gostaria de agendar uma visita." target="_blank">
+            Agende uma visita!
+          </a>
+        </button>
       </div>
     </div>
   );
